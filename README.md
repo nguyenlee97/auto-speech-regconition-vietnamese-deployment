@@ -13,6 +13,8 @@ license: apache-2.0
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nguyenlee97/auto-speech-regconition-vietnamese-deployment/blob/main/colab/vi_asr_colab.ipynb)
+
 ## Colab Notebook
 
 - Use the Colab notebook in `colab/vi_asr_colab.ipynb` to:
