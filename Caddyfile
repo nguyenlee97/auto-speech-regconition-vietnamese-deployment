@@ -1,0 +1,12 @@
+{$DOMAIN} {
+  encode gzip
+  @preflight method OPTIONS
+  header @preflight {
+    Access-Control-Allow-Origin "*"
+    Access-Control-Allow-Methods "*"
+    Access-Control-Allow-Headers "*"
+  }
+  respond @preflight 204
+
+  reverse_proxy vi-asr:8000
+}

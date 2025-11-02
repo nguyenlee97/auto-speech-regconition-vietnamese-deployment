@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.tmp
+*.log
+*.DS_Store
+.git/
+.gitignore
+.vscode/
+.idea/
+.env
+
+# Optional: exclude local test waves if image size matters
+# test_wavs/
